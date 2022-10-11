@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(241, 241, 249);
+  min-height: 100vh;
+}
+.wrapper {
+  width: 600px;
+  background-color: azure;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 1.5rem;
+}
+.wrapper header {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.wrapper .content {
+  margin: 2rem 0;
+}
+.content .quote-area {
+  display: flex;
+  justify-content: center;
+}
+.quote-area i {
+  font-size: 1rem;
+}
+.quote-area i:first-child {
+  margin: 3px 10px 0 0;
+}
+.quote-area i:last-child {
+  margin: 0 0 3px 10px;
+  display: flex;
+  align-items: flex-end;
+}
+.quote-area .quote {
+  font-size: 1.2rem;
+  text-align: center;
+  word-break: break-all;
+}
+.content .author {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.author span:first-child {
+  margin: -7px 5px 0 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper .button {
+  border-top: 1px solid rgb(229, 189, 160);
+}
+.button .features {
+  display: flex;
+  align-items: center;
+  margin-top: 1.1rem;
+  justify-content: space-between;
+}
+.features ul {
+  display: flex;
+}
+.features ul li {
+  list-style: none;
+  margin: 0.5rem;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px sold rgba(48, 47, 41, 0.452);
+}
