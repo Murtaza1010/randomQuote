@@ -13,8 +13,8 @@ body {
   min-height: 100vh;
 }
 .wrapper {
-  width: 600px;
-  background-color: azure;
+  width: 605px;
+  background-color: rgb(252, 185, 244);
   border-radius: 1rem;
   padding: 2rem;
   margin: 1.5rem;
@@ -45,7 +45,7 @@ body {
 .quote-area .quote {
   font-size: 1.2rem;
   text-align: center;
-  word-break: break-all;
+  word-break: normal;
 }
 .content .author {
   display: flex;
@@ -59,25 +59,40 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .wrapper .button {
-  border-top: 1px solid rgb(229, 189, 160);
+  border-top: 10px solid rgb(53, 39, 27);
 }
-.button .features {
+.buttons .features {
   display: flex;
   align-items: center;
-  margin-top: 1.1rem;
+  margin: 20px;
   justify-content: space-between;
 }
 .features ul {
   display: flex;
 }
 .features ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   margin: 0.5rem;
   height: 3rem;
   width: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 50%;
-  border: 2px sold rgba(48, 47, 41, 0.452);
+  border: 2px sold rgba(29, 27, 19, 0.452);
+  transition: all 1s ease;
+}
+.features ul li:hover {
+  color: rgb(240, 134, 222);
+  background: rgb(237, 232, 244);
+}
+.features button {
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: bisque;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  background: rgb(240, 134, 222);
 }
